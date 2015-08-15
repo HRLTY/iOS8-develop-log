@@ -1,0 +1,12 @@
+* lecture 3 note
+** there are two differences between *struct* and *class* in Swift
+  one, struct don't have inheritance.
+  two, struct are passed by value, class are passed by reference.
+** unless you pass a class argument, arguments are passed by value
+   struct can have function, property.
+   Array and dictionary are structs.
+** there is a implicit *let* in front of arguments copied
+   but you can make your owe "var".
+   However, Swift is super smart to not extra copy actually unless you
+   actually change it.
+
